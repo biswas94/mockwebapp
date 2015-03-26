@@ -30,10 +30,60 @@ header, #main, footer{
     margin-right: 100px;
     margin-top: 100px;
 }
-#searchcontainer input{
-    border-radius: 15px;
-    height: 25px;
+#searchbox {
+    background:url(../img/search-white.png) no-repeat 10px 12px #fcfcfc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: none;
+    font: 16px Arial,Helvetica,Sans-serif;
+    color: #000;
+    width: 150px;
+    padding: 8px 15px 8px 35px;
     outline: none;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    z-index: 999;
+    position: relative;
+}
+#searchbox:focus {
+    width: 200px;
+}
+#searchbutton{
+    font-size: 20px;
+    color: #fff;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(bottom, #3498db, #2980b9);
+    width: 80px;
+    padding: 5px 5px 8px 45px;
+    border: none;
+    border-radius: 20px;
+    margin-left: -40px;
+    z-index: 998;
+    position: relative;
+    outline: none;
+}
+#searchbutton:hover{
+    cursor: pointer;
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
 }
 section, aside{
     //border: 1px solid #777;
@@ -45,10 +95,28 @@ section, aside{
     margin-right:auto;
     margin-left: auto;
     margin-top: 20px;
+    //border: 1px solid #000;
 }
 #content{
     height: 500px;
     margin-left:220px;
+}
+#topmovies{
+    //border: 1px solid #f00;
+    overflow: hidden;
+}
+#topmovies h1{
+    text-align:  center;
+    font: bold 18px sans-serif;
+    margin-top: 10px;
+}
+#topmovies article{
+    //border: 1px solid #0f0;
+    overflow: hidden;
+    margin: 10px 0px 10px 20px;
+}
+#topmovies article img{
+    float:left;
 }
 #navcontainer{
     float:left;

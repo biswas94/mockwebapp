@@ -6,6 +6,6 @@
 
 $(document).ready(function(){
     $('#searchbutton').click(function(){
-        $('#content').html(''+$('#searchbar').val());
+        $('#content').html($('#content').html() + "" + $('#searchbox').val());
     });
 });
