@@ -19,7 +19,7 @@ header{
 }
 header, #main, footer{
     background: #fff;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 3px 3px 10px #555;
 }
 #logocontainer{
@@ -136,7 +136,7 @@ footer{
     margin-left: 120px;
     margin-bottom: 3px;
 }
-#topmovies .movie_title{
+.movie_title{
     font-size: 18px;
     font-weight: bold;
 }
