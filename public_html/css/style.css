@@ -20,6 +20,7 @@ body{
 }
 header, #main, footer{
     background: #fff;
+    border-radius: 30px;
 }
 #logocontainer{
     margin-left: 100px;
@@ -113,7 +114,8 @@ section, aside{
 #topmovies article{
     //border: 1px solid #0f0;
     overflow: hidden;
-    margin: 10px 0px 10px 20px;
+    margin: 10px 0px 40px 20px;
+    
 }
 #topmovies article img{
     float:left;
