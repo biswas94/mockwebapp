@@ -13,6 +13,22 @@ Dynamic Web Programming submission 2 - Interface Design
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="icon" href="img/potato.ico" />
+        <style>
+            #topmovies p{
+                margin-left: 120px;
+                margin-bottom: 3px;
+            }
+            #topmovies .movie_title{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .topmovie img{
+                
+            }
+            .genre{
+                margin-left: 20px;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -26,25 +42,34 @@ Dynamic Web Programming submission 2 - Interface Design
         </header>
         <section id="main">
             <aside id="navcontainer">
-                <nav>Navigation</nav>
+                <nav></nav>
             </aside>
             <section id="content">
                 <section id="topmovies">
                     <h1>Top Movies</h1>
-                    <article id="topmovie1">
-                        <img src="img/rottenpotatoes.png" alt="Movie Picture" width="100" height="100"/>
-                        <p>Movie Name</p>
-                        <p>Movie details</p>
+                    <article id="topmovie1" class="topmovie">
+                        <img src="img/interstellar_poster.jpg" alt="Movie Picture" width="100" />
+                        <p class="movie_title">Interstellar (2014)</p>
+                        <p class="movie_director">Director: Christopher Nolan</p>
+                        <p class="movie_cert_genre">PG-13<span class="genre">Adventure, Sci-Fi</span></p>
+                        <p class="imdb_rating">IMDB rating: 8.8</p>
+                        <p class="roto_rating">RottenTomatoes rating: 72%</p>
                     </article>
-                    <article id="topmovie2">
-                        <img src="img/rottenpotatoes.png" alt="Movie Picture" width="100" height="100"/>
-                        <p>Movie Name</p>
-                        <p>Movie details</p>
+                    <article id="topmovie2" class="topmovie">
+                        <img src="img/everest_poster.jpg" alt="Movie Picture" width="100" height="100"/>
+                        <p class="movie_title">Everest (2015)</p>
+                        <p class="movie_director">Director: Baltasar Kormákur</p>
+                        <p class="movie_cert_genre">PG-13<span class="genre">Adventure, Drama, Thriller</span></p>
+                        <p class="imdb_rating">IMDB rating: 8.8</p>
+                        <p class="roto_rating">RottenTomatoes rating: 72%</p>
                     </article>
-                    <article id="topmovie3">
-                        <img src="img/rottenpotatoes.png" alt="Movie Picture" width="100" height="100"/>
-                        <p>Movie Name</p>
-                        <p>Movie details</p>
+                    <article id="topmovie3" class="topmovie">
+                        <img src="img/inception_poster.jpg" alt="Movie Picture" width="100" height="100"/>
+                        <p class="movie_title">Inception (2010)</p>
+                        <p class="movie_director">Director: Christopher Nolan</p>
+                        <p class="movie_cert_genre">PG-13 <span class="genre">Action, Mystery, Sci-Fi</span></p>
+                        <p class="imdb_rating">IMDB rating: 8.8</p>
+                        <p class="roto_rating">RottenTomatoes rating: 72%</p>
                     </article>
                 </section>
             </section>
