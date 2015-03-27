@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : 1309400
 */
 body{
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/background.jpg);
 }
 header{
     max-width: 1000px;
@@ -146,11 +146,21 @@ footer{
 .genre{
     margin-left: 20px;
 }
+footer section{
+    display: inline-block;
+}
 #social_media{
     margin: 20px 0px 20px 20px;
-    display: block;
+    
 }
 #social_media a{
     color: #000;
-    margin-top: 20px;
+    font-size: 26px;
+    margin-right: 20px;
+}
+#links{
+    margin-left: 20%;
+}
+#legal{
+    margin-left: 20%;
 }
