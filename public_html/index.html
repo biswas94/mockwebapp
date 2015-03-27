@@ -13,11 +13,15 @@ Dynamic Web Programming submission 2 - Interface Design
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="icon" href="img/potato.ico" />
+        <link href='http://fonts.googleapis.com/css?family=Neuton:400,700' rel='stylesheet' type='text/css'>
         <style>
         </style>
     </head>
     <body>
         <header>
+            <!--
+                App logo & search box
+            -->
             <div id="logocontainer">
                 <img src="img/rottenpotatoes.png" alt="Logo" height="270" width="225"/>
             </div>
@@ -26,11 +30,37 @@ Dynamic Web Programming submission 2 - Interface Design
                 <button id="searchbutton"><i class="fa fa-search"></i></button>
             </div>
         </header>
+        <!--
+            Main body of the document
+        -->
         <section id="main">
             <aside id="navcontainer">
-                <nav>Navigation</nav>
+                <!-- Search refine navigation -->
+                <nav>
+                    <ul>
+                        <li>Refine results by Genre
+                            <ul>
+                                <li><i class="fa fa-check-square"></i>Adventure</li>
+                                <li><i class="fa fa-check-square"></i>Sci-Fi</li>
+                                <li><i class="fa fa-check-square"></i>Drama</li>
+                                <li><i class="fa fa-check-square"></i>Action</li>
+                                <li><i class="fa fa-check-square"></i>Thriller</li>
+                                <li><i class="fa fa-check-square"></i>Comedy</li>
+                            </ul>
+                        </li>
+                        <li>Sort results by: 
+                            <ul>
+                                <li><i class="fa fa-check-square"></i>Name</li>
+                                <li><i class="fa fa-check-square"></i>Date</li>
+                                <li><i class="fa fa-check-square"></i>IMDB rating</li>
+                                <li><i class="fa fa-check-square"></i>Rotten Tomatoes rating</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </aside>
             <section id="content">
+                <!-- This section is for displaying top/famous movie -->
                 <section id="topmovies">
                     <h1>Top Movies</h1>
                     <article id="topmovie1" class="topmovie">
@@ -61,6 +91,7 @@ Dynamic Web Programming submission 2 - Interface Design
             </section>
         </section>
         <footer>
+            <!-- This section is for links to social media -->
             <section id="social_media">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -70,6 +101,7 @@ Dynamic Web Programming submission 2 - Interface Design
             <section id="legal">
                 Copyright
             </section>
+            <!-- This section is for links to external websites -->
             <section id="links">
                 <a href="#">IMDB</a>
                 <a href="#">Rottentomatoes</a>

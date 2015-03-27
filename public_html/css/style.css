@@ -5,7 +5,7 @@ and open the template in the editor.
 */
 /* 
     Created on : 20-Mar-2015, 13:45:18
-    Author     : 1309400
+    Author     : Group D
 */
 body{
     background-image: url(../img/background.jpg);
@@ -17,15 +17,21 @@ header{
     height: auto;
     overflow:hidden;
 }
+h1, p{
+    font-family: 'Neuton', serif;
+}
+/* Styles for the header*/
 header, #main, footer{
     background: #fff;
     border-radius: 5px;
     box-shadow: 3px 3px 10px #555;
 }
+/* Styles for the logo */
 #logocontainer{
     margin-left: 100px;
     float:left;
 }
+/* Styles for search input*/
 #searchcontainer{
     float:right;
     margin-right: 100px;
@@ -86,9 +92,7 @@ header, #main, footer{
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
 }
-section, aside{
-    //border: 1px solid #777;
-}
+/* Styles for the main body */
 #main{
     overflow: hidden;
     max-width: 1000px;
@@ -96,11 +100,11 @@ section, aside{
     margin-right:auto;
     margin-left: auto;
     margin-top: 20px;
-    //border: 1px solid #000;
 }
 #content{
     margin-left:220px;
 }
+/* Styles for the top movies page */
 #topmovies, #resultmovies{
     //border: 1px solid #f00;
     overflow: hidden;
@@ -111,7 +115,6 @@ section, aside{
     margin-top: 10px;
 }
 #topmovies article, #resultmovies article{
-    //border: 1px solid #0f0;
     overflow: hidden;
     margin: 10px 0px 40px 20px;
     
@@ -119,10 +122,24 @@ section, aside{
 #topmovies article img, #resultmovies article img{
     float:left;
 }
+/* Styles for side navigation */
 #navcontainer{
     float:left;
     width: 200px;
     height: 500px;
+}
+nav ul{
+    margin: 10px 0px 0px 10px;
+}
+nav > ul > li{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+nav ul ul li{
+    margin-bottom: 5px;
+}
+nav ul li i{
+    margin-right: 5px;
 }
 footer{
     overflow: hidden;
@@ -146,6 +163,7 @@ footer{
 .genre{
     margin-left: 20px;
 }
+/* Styles for footer */
 footer section{
     display: inline-block;
 }
@@ -164,3 +182,27 @@ footer section{
 #legal{
     margin-left: 20%;
 }
+/* Styles for movie information page*/
+#toprow{
+    margin: 20px; 
+    overflow: hidden;
+}
+#midrow{
+    margin: 20px;
+}
+#bottomrow{
+    margin: 20px;
+}
+#movieimage{
+    float: left;
+}
+#movieinfo{
+    margin-left: 225px;
+}
+#movietrailer{
+    margin: 0 auto; 
+    width: 500px;
+}
+#movieinfo p{
+    padding-top: 2px; 
+    padding-bottom: 2px;}
