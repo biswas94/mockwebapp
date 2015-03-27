@@ -7,7 +7,9 @@ and open the template in the editor.
     Created on : 20-Mar-2015, 13:45:18
     Author     : 1309400
 */
-
+html{
+    background: url(../img/bg.jpg) repeat;
+}
 header{
     max-width: 1000px;
     width: 100%;
@@ -20,7 +22,8 @@ body{
 }
 header, #main, footer{
     background: #fff;
-    border-radius: 30px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #555;
 }
 #logocontainer{
     margin-left: 100px;
@@ -99,25 +102,24 @@ section, aside{
     //border: 1px solid #000;
 }
 #content{
-    height: 500px;
     margin-left:220px;
 }
-#topmovies{
+#topmovies, #resultmovies{
     //border: 1px solid #f00;
     overflow: hidden;
 }
-#topmovies h1{
+#topmovies h1, #resultmovies h1{
     text-align:  center;
     font: bold 18px sans-serif;
     margin-top: 10px;
 }
-#topmovies article{
+#topmovies article, #resultmovies article{
     //border: 1px solid #0f0;
     overflow: hidden;
     margin: 10px 0px 40px 20px;
     
 }
-#topmovies article img{
+#topmovies article img, #resultmovies article img{
     float:left;
 }
 #navcontainer{
@@ -133,4 +135,26 @@ footer{
     margin-left: auto;
     margin-top: 20px;
     height: 100px;
+}
+#topmovies p, #resultmovies p{
+    margin-left: 120px;
+    margin-bottom: 3px;
+}
+#topmovies .movie_title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.topmovie img{
+
+}
+.genre{
+    margin-left: 20px;
+}
+#social_media{
+    margin-left: 20px;
+    display: block;
+}
+#social_media a{
+    color: #000;
+    margin-top: 20px;
 }
