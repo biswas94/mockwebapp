@@ -4,7 +4,7 @@ Dynamic Web Programming submission 2 - Interface Design
 -->
 <html>
     <head>
-        <title>Movie Database WebApp</title>
+        <title>Rotten Potatoes | Home</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -13,6 +13,8 @@ Dynamic Web Programming submission 2 - Interface Design
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="icon" href="img/potato.ico" />
+        <style>
+        </style>
     </head>
     <body>
         <header>
@@ -31,26 +33,40 @@ Dynamic Web Programming submission 2 - Interface Design
             <section id="content">
                 <section id="topmovies">
                     <h1>Top Movies</h1>
-                    <article id="topmovie1">
-                        <img src="img/rottenpotatoes.png" alt="Movie Picture" width="100" height="100"/>
-                        <p>Movie Name</p>
-                        <p>Movie details</p>
+                    <article id="topmovie1" class="topmovie">
+                        <img src="img/interstellar_poster.jpg" alt="Movie Picture" width="100" />
+                        <p class="movie_title">Interstellar (2014)</p>
+                        <p class="movie_director">Director: Christopher Nolan</p>
+                        <p class="movie_cert_genre">PG-13<span class="genre">Adventure, Sci-Fi</span></p>
+                        <p class="imdb_rating">IMDB rating: 8.8</p>
+                        <p class="roto_rating">RottenTomatoes rating: 72%</p>
                     </article>
-                    <article id="topmovie2">
-                        <img src="img/rottenpotatoes.png" alt="Movie Picture" width="100" height="100"/>
-                        <p>Movie Name</p>
-                        <p>Movie details</p>
+                    <article id="topmovie2" class="topmovie">
+                        <img src="img/everest_poster.jpg" alt="Movie Picture" width="100" height="100"/>
+                        <p class="movie_title">Everest (2015)</p>
+                        <p class="movie_director">Director: Baltasar Kormákur</p>
+                        <p class="movie_cert_genre">PG-13<span class="genre">Adventure, Drama, Thriller</span></p>
+                        <p class="imdb_rating">IMDB rating: 8.8</p>
+                        <p class="roto_rating">RottenTomatoes rating: 72%</p>
                     </article>
-                    <article id="topmovie3">
-                        <img src="img/rottenpotatoes.png" alt="Movie Picture" width="100" height="100"/>
-                        <p>Movie Name</p>
-                        <p>Movie details</p>
+                    <article id="topmovie3" class="topmovie">
+                        <img src="img/inception_poster.jpg" alt="Movie Picture" width="100" height="100"/>
+                        <p class="movie_title">Inception (2010)</p>
+                        <p class="movie_director">Director: Christopher Nolan</p>
+                        <p class="movie_cert_genre">PG-13 <span class="genre">Action, Mystery, Sci-Fi</span></p>
+                        <p class="imdb_rating">IMDB rating: 8.8</p>
+                        <p class="roto_rating">RottenTomatoes rating: 72%</p>
                     </article>
                 </section>
             </section>
         </section>
         <footer>
-            Footer
+            <section id="social_media">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </section>
         </footer>
     </body>
 </html>
